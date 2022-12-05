@@ -20,7 +20,7 @@ Change the `name` field in `package.json`
 
 ```json
 {
-    "name": "your-package-name-here";
+    "name": "your-package-name-here"
 }
 ```
 
