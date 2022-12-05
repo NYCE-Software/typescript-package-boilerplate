@@ -65,7 +65,7 @@ Please do not perform these actions manually.
 
 ### Commit
 
-Commit your changes, **do not commit or mention version numbers manually**
+Commit your changes, **NOTE: do not mention/commit version numbers manually**
 
 ```shell
 git commit -m "DESCRIBE_YOUR_CHANGES_HERE"
