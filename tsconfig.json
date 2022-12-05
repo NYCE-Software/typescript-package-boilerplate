@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/@nyce/config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+  },
+  "include": ["src"]
+}
