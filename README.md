@@ -1,6 +1,6 @@
 # typescript-package-template
 
-A template reusable for instant and consist TypeScript-based NPM packages.
+A template reusable for instant and consistent TypeScript-based NPM packages.
 
 ## Using this boilerplate
 
