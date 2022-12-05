@@ -60,7 +60,7 @@ pnpm add ./nyce-software-ts-core-[VERSION].tgz
 
 ## Publishing future versions
 
-**Important notice:** Version numbers changes and pushing commits is done automatically by the mentioned (p)npm commands.
+**Important notice:** Av ersion number change and a push of commits automatically triggered by the mentioned (p)npm commands.
 Please do not perform these actions manually.
 
 ### Commit
