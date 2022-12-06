@@ -1,4 +1,4 @@
-# typescript-package-template
+# TypeScript NPM package starter template
 
 A reusable template for instant and consistent TypeScript-based NPM packages.
 
