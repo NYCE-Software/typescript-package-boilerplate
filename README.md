@@ -25,6 +25,7 @@ Change the `name` field in `package.json`
 ```
 
 ### 2. Install packages
+
 This template uses [PNPM](https://pnpm.io/) instead of NPM. Compatibility with regular NPM is not guaranteed and may require some tweaking.
 
 ```bash
@@ -70,6 +71,7 @@ Commit your changes, **NOTE: do not mention/commit version numbers manually**
 ```shell
 git commit -m "DESCRIBE_YOUR_CHANGES_HERE"
 ```
+
 ### Version
 
 Run the version command, specify the type of the change (semantic versioning):
