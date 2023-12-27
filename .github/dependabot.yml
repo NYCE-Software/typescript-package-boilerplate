@@ -1,27 +1,27 @@
 version: 2
 registries:
-  npm-github:
-    type: npm-registry
-    url: https://npm.pkg.github.com
-    token: ${{secrets.PRIVATE_PACKAGES_READ}}
-  npm-js:
-    type: npm-registry
-    url: https://registry.npmjs.org
-    token: ${{secrets.NPM_JS_READONLY_TOKEN}}
-    replaces-base: true
+    npm-github:
+        type: npm-registry
+        url: https://npm.pkg.github.com
+        token: ${{secrets.PRIVATE_PACKAGES_READ}}
+    npm-js:
+        type: npm-registry
+        url: https://registry.npmjs.org
+        token: ${{secrets.NPM_JS_READONLY_TOKEN}}
+        replaces-base: true
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    registries:
-      - npm-js
-      - npm-github
-    directory: "/app" # Location of package manifests
-    schedule:
-      interval: "daily"
-    groups:
-      minor-and-patch-dependencies:
-        update-types:
-          - "minor"
-          - "patch"
-      major-dependencies:
-        update-types:
-          - "major"
+    - package-ecosystem: "npm" # See documentation for possible values
+      registries:
+          - npm-js
+          - npm-github
+      directory: "/app" # Location of package manifests
+      schedule:
+          interval: "daily"
+      groups:
+          minor-and-patch-dependencies:
+              update-types:
+                  - "minor"
+                  - "patch"
+          major-dependencies:
+              update-types:
+                  - "major"
