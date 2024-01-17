@@ -9,7 +9,7 @@ updates:
     - package-ecosystem: "npm" # See documentation for possible values
       registries:
           - npm-js
-      directory: "/app" # Location of package manifests
+      directory: "/" # Location of package manifests
       schedule:
           interval: "daily"
       groups:
