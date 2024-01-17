@@ -3,6 +3,7 @@ name: Build and test package (without versioning)
 on:
     pull_request:
         branches: [develop, test, acceptance, main]
+    workflow_dispatch:
 
 permissions:
     contents: write
