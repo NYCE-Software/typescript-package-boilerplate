@@ -1,9 +1,5 @@
 version: 2
 registries:
-    npm-github:
-        type: npm-registry
-        url: https://npm.pkg.github.com
-        token: ${{secrets.PRIVATE_PACKAGES_READ}}
     npm-js:
         type: npm-registry
         url: https://registry.npmjs.org
@@ -13,7 +9,6 @@ updates:
     - package-ecosystem: "npm" # See documentation for possible values
       registries:
           - npm-js
-          - npm-github
       directory: "/app" # Location of package manifests
       schedule:
           interval: "daily"
