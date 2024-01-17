@@ -1,4 +1,4 @@
-name: Build and Version
+name: Build and test package (without versioning)
 
 on:
     pull_request:
