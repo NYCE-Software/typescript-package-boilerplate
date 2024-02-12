@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@nyce/config':
-    specifier: 4.0.11
-    version: 4.0.11(@types/node@20.11.17)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint-config-prettier@9.1.0)(eslint-plugin-no-secrets@0.8.9)(eslint-plugin-no-unsanitized@4.0.2)(eslint-plugin-pii@1.0.2)(eslint-plugin-regexp@2.2.0)(eslint-plugin-require-extensions@0.1.3)(eslint-plugin-xss@0.1.12)(eslint@8.56.0)(prettier@3.2.5)(shx@0.3.4)(ts-node@10.9.2)(typescript@5.3.3)
+    specifier: 4.0.13
+    version: 4.0.13(@types/node@20.11.17)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint-config-prettier@9.1.0)(eslint-plugin-no-secrets@0.8.9)(eslint-plugin-no-unsanitized@4.0.2)(eslint-plugin-pii@1.0.2)(eslint-plugin-regexp@2.2.0)(eslint-plugin-require-extensions@0.1.3)(eslint-plugin-xss@0.1.12)(eslint@8.56.0)(prettier@3.2.5)(shx@0.3.4)(ts-node@10.9.2)(typescript@5.3.3)
 
 devDependencies:
   '@jest/globals':
@@ -739,8 +739,8 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.16.0
 
-  /@nyce/config@4.0.11(@types/node@20.11.17)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint-config-prettier@9.1.0)(eslint-plugin-no-secrets@0.8.9)(eslint-plugin-no-unsanitized@4.0.2)(eslint-plugin-pii@1.0.2)(eslint-plugin-regexp@2.2.0)(eslint-plugin-require-extensions@0.1.3)(eslint-plugin-xss@0.1.12)(eslint@8.56.0)(prettier@3.2.5)(shx@0.3.4)(ts-node@10.9.2)(typescript@5.3.3):
-    resolution: {integrity: sha512-ghW2m1flHCtILd5VnjjgJyypfeEcTJeccPNItSES0p8f40j75HVWBWgZEO4z0WM/n4i++E4wLGCApnZnuGcpkQ==}
+  /@nyce/config@4.0.13(@types/node@20.11.17)(@typescript-eslint/eslint-plugin@6.21.0)(@typescript-eslint/parser@6.21.0)(eslint-config-prettier@9.1.0)(eslint-plugin-no-secrets@0.8.9)(eslint-plugin-no-unsanitized@4.0.2)(eslint-plugin-pii@1.0.2)(eslint-plugin-regexp@2.2.0)(eslint-plugin-require-extensions@0.1.3)(eslint-plugin-xss@0.1.12)(eslint@8.56.0)(prettier@3.2.5)(shx@0.3.4)(ts-node@10.9.2)(typescript@5.3.3):
+    resolution: {integrity: sha512-FkeXVBF+WS3ldPeWCnTQb27n3OUalcHVwH1eBxA7e6pHbPMK0+jAeq+HnYAKMjEss8VSQdXhyi/Y1slkx3pg6Q==}
     engines: {node: '>=20.9'}
     peerDependencies:
       '@types/node': ^20.9
