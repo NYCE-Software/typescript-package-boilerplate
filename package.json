@@ -10,7 +10,7 @@
     "scripts": {
         "copy-swc-config": "shx cp node_modules/@nyce/config/.swcrc .swcrc",
         "check-version-collision": "[ \"$(npm view .@latest version)\" != $npm_package_version ] && exit 0 || echo \"Error: package version '$npm_package_version' already published, please run (p)npm version before merge \" && exit 1",
-        "build": "npx swc --config-file .swcrc ./src -d dist",
+        "build": "npx swc --strip-leading-paths --config-file .swcrc ./src -d dist",
         "start": "echo info: no start script in this package... no worries... there probably shouldn't be one :D",
         "prepare": "pnpm copy-swc-config && pnpm build && pnpm emitTypeDeclarations",
         "version:dependabot": "git checkout HEAD -- .npmrc && pnpm version patch",
