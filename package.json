@@ -50,10 +50,10 @@
         "@jest/globals": "^29.7.0",
         "@jest/types": "^29.6.3",
         "@swc/cli": "^0.3.10",
-        "@swc/core": "^1.4.6",
+        "@swc/core": "^1.4.8",
         "@types/eslint": "^8.56.5",
         "@types/jest": "^29.5.12",
-        "@types/node": "^20.11.26",
+        "@types/node": "^20.11.27",
         "@types/supertest": "^6.0.2",
         "@types/validator": "^13.11.9",
         "@typescript-eslint/eslint-plugin": "^6.21.0",
@@ -79,6 +79,6 @@
         "shx": "^0.3.4"
     },
     "dependencies": {
-        "@nyce/config": "4.0.13"
+        "@nyce/config": "4.0.15"
     }
 }
